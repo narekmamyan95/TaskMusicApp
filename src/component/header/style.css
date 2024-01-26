@@ -1,0 +1,209 @@
+.headerContainer {
+    width: 97%;
+    height: 60px;
+    background-color: rgb(188, 188, 188);
+    margin: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.firstElementsContainer,
+.secodElementsContainer {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+
+
+.firstElementsContainer form {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+
+}
+
+.firstElementsContainer form span {
+    margin-right: 10px;
+}
+
+.firstElementsContainer form img {
+    margin-right: 10px;
+    width: 19px;
+
+}
+
+.firstElementsContainer form button {
+    height: 40px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-right: none;
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.firstElementsContainer form button span {
+    font-size: 22px;
+}
+
+.firstElementsContainer form select {
+    height: 40px;
+    font-weight: bold;
+    outline: none;
+    border-left: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.secodElementsContainer form {
+    display: flex;
+    padding-right: 20px;
+}
+
+.secodElementsContainer form span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.secodElementsContainer form button {
+    height: 40px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-right: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.secodElementsContainer form select {
+    height: 40px;
+    font-weight: bold;
+    outline: none;
+    border-left: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+}
+
+.secodElementsContainer form select {
+    height: 40px;
+    font-weight: bold;
+    outline: none;
+    border-left: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 140px;
+    text-align: center;
+
+}
+
+.secodElementsContainer input {
+    height: 40px;
+    width: 200px;
+    border-radius: 14px;
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.uploadMusicBtn {
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .headerContainer {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .firstElementsContainer,
+    .secodElementsContainer {
+        display: flex;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .firstElementsContainer form button {
+        height: 30px;
+    }
+
+    .firstElementsContainer form button span {
+        font-size: 15px;
+    }
+
+    .firstElementsContainer form select,
+    .secodElementsContainer form select {
+        height: 30px;
+    }
+
+    .secodElementsContainer input {
+        height: 30px;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .headerContainer {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .firstElementsContainer,
+    .secodElementsContainer {
+        display: flex;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .firstElementsContainer form button {
+        height: 35px;
+    }
+
+    .firstElementsContainer form button span {
+        font-size: 17px;
+    }
+
+    .firstElementsContainer form select,
+    .secodElementsContainer form select {
+        height: 34px;
+    }
+
+    .secodElementsContainer input {
+        height: 30px;
+        width: 120px;
+    }
+
+    .uploadMusicBtn {
+        height: 35px;
+        margin-top: 5px;
+    }
+}
